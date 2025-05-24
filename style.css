@@ -1,0 +1,149 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body
+{
+    height: 600px;
+    width: 100%;
+    background: -webkit-gradient(
+    linear, left top, right bottom,
+    from(#0057b7),
+    to(#00bcd4)
+    );
+    
+    justify-content: center;
+    align-items: center;
+}
+.c-c
+{
+display: flex;
+justify-content: space-evenly;
+
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(to right, #ffc235, #00e1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.country1
+{ 
+    position: relative;
+    height: 100px;
+}
+
+
+.country2
+{ 
+     position: relative;
+    height: 100px;
+   
+}
+.country1 img
+{
+   position: relative;
+   top: 5px;
+
+}
+
+.country1 select
+{
+    height:30px ;
+   width:300px ;
+   border-radius: 5px;
+   background: -webkit-gradient(
+    linear, left top, right bottom,
+    from(#ffd902),
+    to(#00bcd4)
+    );
+        outline: none;
+
+
+
+}
+
+
+.country2 img
+{
+   
+ position: relative;
+   top: 5px;
+
+}
+
+.country2 select
+{
+    height:30px ;
+   width:300px ;
+   border-radius: 5px;
+   background: -webkit-gradient(
+    linear, left top, right bottom,
+    from(#269ebd),
+    to(#ffd000)
+    );
+        outline: none;
+
+}
+
+.converter
+{
+    position: relative;
+    left: 400px;
+    top: 100px;
+    height: 400px;
+    padding-top: 40px;
+    
+}
+
+.converter input
+{
+    height: 50px;
+    width: 400px;
+    background-color: transparent;
+    border-radius: 15px;
+    outline: none;
+    font-size: x-large;
+}
+
+.converter button
+{
+    height: 50px;
+    width: 100px;
+    background-color: goldenrod;
+    border-radius: 15px;
+    outline: none;
+    font-size: x-large;
+}
+
+#converted 
+{
+    padding: 20px;  
+    border: 2px solid greenyellow;
+    background-color: transparent;
+    border-radius: 15px;
+    outline: none;
+    font-size: x-large;
+    position: relative;
+    top: 40px;
+}
+
+#display
+{
+    position: relative;
+    left: 10px;
+}
+.displaycurrency
+{
+    height: 800px;
+    width: 400px;
+}
