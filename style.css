@@ -84,8 +84,7 @@ body
 {
     position: relative;
     right: 20px;
-    border: 2px solid rgb(23, 191, 23);
-    background-color: #53833a;
+    background-color:transparent;
 }
 
 .converted 
