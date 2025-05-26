@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body
@@ -112,6 +113,7 @@ body
      border-radius: 10px;
      position: relative;
      left: 80px;
+     outline: none;
 
 }
 
@@ -128,6 +130,8 @@ body
     color: rgb(255, 255, 255);
     background-color: rgb(47, 44, 214);
     cursor: pointer;
+    font-size: 1.2rem;
+
   
 
 }
