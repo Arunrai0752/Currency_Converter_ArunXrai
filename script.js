@@ -21,7 +21,7 @@ async function convert() {
   const rates = data[fromCode];
 
   const newAmt = amt * rates[toCode];
-  document.getElementById("converted").innerText = `Converted: ${newAmt.toFixed(2)} ${toCode.toUpperCase()}`;
+  document.getElementById("converted").innerText = `${newAmt.toFixed(2)} ${toCode.toUpperCase()}`;
 }
 
 async function autofill() {
@@ -40,7 +40,7 @@ async function autofill() {
       o2.innerText = element.Country;
       to.appendChild(o2);
     }
-  });
+  }); 
 
   from.value = "inr,IN";
   to.value = "usd,US";

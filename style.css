@@ -86,6 +86,8 @@ body
     position: relative;
     right: 20px;
     background-color:transparent;
+    background-color: rgb(162, 154, 0);
+    border-radius: 10px;
 }
 
 .converted 
